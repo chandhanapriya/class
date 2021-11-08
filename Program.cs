@@ -1,12 +1,13 @@
 ﻿using System;
 
-namespace class_implementation
+namespace democlass_implementation
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
+
+        Student std = new Student();
+        std.Display();
+        std.message();
+
+        
 }
